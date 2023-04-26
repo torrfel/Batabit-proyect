@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <link rel="stylesheet" href="/estilos/tablet.css" media="(min-width: 930px)">
 
 </head>
 <body>
@@ -17,7 +18,7 @@
         <div class="header_title-container">
             <h1>La próxima revolucion en el intercambio de criptomonedas</h1>
             <p>Batabit ayuda a navegar entre los diferentes precios y tendecias</p>
-            <a href="" class="header_button">Conoce nuestros Planes<span ></span></a>
+            <a href="#plans" class="header_button">Conoce nuestros Planes<span ></span></a>
         </div>
     </header>
     <main>
@@ -77,16 +78,16 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="main_table-container_commission_date">
+                    <div class="main_table-container_currenncy_date">
                         <p> <b> Actulizado:</b> 27 Febrero 23:45</p>
                     </div>
                 </div>
             </section>
         </section>
         <section class="main_product-detail">
-            <span></span>
-            <div>
-                <h2>Creamos un producot sin comparación.</h2>
+            <span class="main_product-detail_img-logo"></span>
+            <div class="main_product-detail_title">
+                <h2>Creamos un producto sin comparación.</h2>
                 <p>Confiable y diseñado para su uso diario</p>
             </div>
             <section class="main_product-detail_section">
@@ -115,9 +116,56 @@
                 </article>
             </section>
         </section>
-        <section></section>
-        <section></section>
+        <section class="main_bitcoin-img-container">
+            <h2>Conocenos hoy</h2>
+        </section>
+        <section id="plans" class="main_plans-container">
+            <div class="main_plans-container_title">
+                <h2>Escoje el plan que mejor se ajuste a ti</h2>
+                <p>Cualquier plan te da acceso completo a nuestra plataforma</p>
+            </div>
+            <section  class="main_plans-container--slider">
+                <article class="main_plans-container-card">
+                    <p class="main_plans-container-card_botton-recomended">Recomendado</p>
+                    <div class="main_plans-container_info">
+                        <h3 class="main_plans-container_info_title">Pago Anual</h3>
+                        <p class="main_plans-container_info_price"><sup>$</sup> 99</p>
+                        <p class="main_plans-container_info_saving">* Ahorras $129 comparado al plan mensual</p>
+                        <button class="main_plans-container_info_button">Escoger este</button>
+                    </div>
+                </article>
+                <article class="main_plans-container-card">
+                    <p class="main_plans-container-card_botton-recomended">Recomendado</p>
+                    <div class="main_plans-container_info">
+                        <h3 class="main_plans-container_info_title">Pago Anual</h3>
+                        <p class="main_plans-container_info_price"><sup>$</sup> 99</p>
+                        <p class="main_plans-container_info_saving">* Ahorras $129 comparado al plan mensual</p>
+                        <button class="main_plans-container_info_button">Escoger este</button>
+                    </div>
+                </article>
+                <article class="main_plans-container-card">
+                    <p class="main_plans-container-card_botton-recomended">Recomendado</p>
+                    <div class="main_plans-container_info">
+                        <h3 class="main_plans-container_info_title">Pago Anual</h3>
+                        <p class="main_plans-container_info_price"><sup>$</sup> 99</p>
+                        <p class="main_plans-container_info_saving">* Ahorras $129 comparado al plan mensual</p>
+                        <button class="main_plans-container_info_button">Escoger este</button>
+                    </div>
+                </article>
+            </section>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="footer_left-section">
+            <ul >
+               <li><a href="#">LinKedin</a></li>
+               <li><a href="#">Crunchbase</a></li>
+               <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="footer_right-section">
+            <img src="/assets/icon/logo_icon.png" alt="logo Batabit">
+        </section>
+    </footer>
 </body>
 </html>
