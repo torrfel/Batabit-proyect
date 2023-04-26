@@ -1,0 +1,26 @@
+.main_table-container{
+    display: flex;
+    
+}
+.main_product-detail_section{
+   display: flex;
+   flex-wrap: wrap;
+   width: 930px; 
+   margin: 0 auto;
+}
+
+.main_bitcoin-img-container h2{
+    display: flex;
+    justify-content: end;
+
+    padding-right: 300px;
+    font-size: 3.4rem;
+    
+}
+
+.main_plans-container--slider{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
